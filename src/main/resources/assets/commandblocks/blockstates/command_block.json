@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "facing=north,type=impulse": {
+      "model": "commandblocks:command_block_north"
+    },
+    "facing=south,type=impulse": {
+      "model": "commandblocks:command_block_south"
+    },
+    "facing=east,type=impulse": {
+      "model": "commandblocks:command_block_east"
+    },
+    "facing=west,type=impulse": {
+      "model": "commandblocks:command_block_west"
+    },
+    "facing=up,type=impulse": {
+      "model": "commandblocks:command_block_up"
+    },
+    "facing=down,type=impulse": {
+      "model": "commandblocks:command_block_down"
+    },
+    "facing=north,type=conditional": {
+      "model": "commandblocks:command_block_conditional_north"
+    },
+    "facing=south,type=conditional": {
+      "model": "commandblocks:command_block_conditional_south"
+    },
+    "facing=east,type=conditional": {
+      "model": "commandblocks:command_block_conditional_east"
+    },
+    "facing=west,type=conditional": {
+      "model": "commandblocks:command_block_conditional_west"
+    },
+    "facing=up,type=conditional": {
+      "model": "commandblocks:command_block_conditional_up"
+    },
+    "facing=down,type=conditional": {
+      "model": "commandblocks:command_block_conditional_down"
+    },
+    "facing=north,type=fallback": {
+      "model": "commandblocks:command_block_fallback_north"
+    },
+    "facing=south,type=fallback": {
+      "model": "commandblocks:command_block_fallback_south"
+    },
+    "facing=east,type=fallback": {
+      "model": "commandblocks:command_block_fallback_east"
+    },
+    "facing=west,type=fallback": {
+      "model": "commandblocks:command_block_fallback_west"
+    },
+    "facing=up,type=fallback": {
+      "model": "commandblocks:command_block_fallback_up"
+    },
+    "facing=down,type=fallback": {
+      "model": "commandblocks:command_block_fallback_down"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "commandblocks:template_command_block_down",
+  "textures": {
+    "particle": "commandblocks:block/chain_command_block",
+    "back": "commandblocks:block/chain_command_block",
+    "front": "commandblocks:block/chain_command_block_front",
+    "side": "commandblocks:block/chain_command_block_conditional_side"
+  }
+}

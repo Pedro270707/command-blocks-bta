@@ -1,0 +1,9 @@
+{
+  "parent": "commandblocks:template_command_block_north",
+  "textures": {
+    "particle": "commandblocks:block/command_block",
+    "back": "commandblocks:block/command_block",
+    "front": "commandblocks:block/command_block_front",
+    "side": "commandblocks:block/command_block_conditional_side"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "commandblocks:template_command_block_up",
+  "textures": {
+    "particle": "commandblocks:block/repeating_command_block",
+    "back": "commandblocks:block/repeating_command_block",
+    "front": "commandblocks:block/repeating_command_block_front",
+    "side": "commandblocks:block/repeating_command_block_conditional_side"
+  }
+}

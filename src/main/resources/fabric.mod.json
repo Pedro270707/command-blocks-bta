@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "commandblocks",
+  "version": "1.0.0",
+
+  "name": "Command Blocks",
+  "description": "This mod adds command blocks to BTA!",
+  "authors": [
+    "Pedro Ricardo"
+  ],
+  "contact": {
+    "homepage": "https://pedroricardo.net",
+    "sources": "https://github.com/Pedro270707/command-blocks-bta"
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"net.pedroricardo.commandblocks.CommandBlocksMod"
+    ],
+		"beforeGameStart": [
+			"net.pedroricardo.commandblocks.CommandBlocksMod"
+		],
+		"afterGameStart": [
+			"net.pedroricardo.commandblocks.CommandBlocksMod"
+		],
+		"recipesReady": [
+			"net.pedroricardo.commandblocks.CommandBlocksMod"
+		]
+	},
+  "mixins": [
+		"commandblocks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+		"commander": ">=1.2.12"
+  },
+  "suggests": {
+  }
+}

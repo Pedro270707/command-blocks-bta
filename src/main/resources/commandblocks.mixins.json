@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.pedroricardo.commandblocks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "HandleCommandBlockPacketMixin",
+    "HandleRequestCommandBlockPacketMixin"
+  ],
+  "client": [
+    "HandleCommandBlockPacketClientMixin",
+    "PlayerSPOpenCommandBlockGuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "server": [
+    "HandleCommandBlockPacketServerMixin",
+    "HandleRequestCommandBlockPacketServerMixin",
+    "PlayerMPOpenCommandBlockGuiMixin"
+  ]
+}
